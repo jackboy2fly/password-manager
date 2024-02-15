@@ -1,0 +1,5 @@
+# Builds
+bin
+
+# Secrets
+.env
