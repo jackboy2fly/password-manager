@@ -1,8 +1,0 @@
-build:
-	@go build -o bin/passwordmanager
-
-run: build
-	@./bin/passwordmanager
-
-test:
-	@go test -v ./...
