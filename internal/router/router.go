@@ -15,5 +15,4 @@ func Init(router *fiber.App) {
 	router.Get("/ping", func(c *fiber.Ctx) error {
 		return c.Status(200).SendString("Brady PWM is up and running!")
 	})
-
 }
